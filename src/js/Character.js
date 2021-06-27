@@ -6,7 +6,6 @@ export default class Character {
     } else {
       this.name = name;
     }
-    
     if (!types.includes(type)) {
       throw new Error('Такого класса нет');
     } else {
