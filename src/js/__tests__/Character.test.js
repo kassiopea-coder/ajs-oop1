@@ -24,6 +24,6 @@ test('create Character ok', () => {
     type: 'Magician',
     health: 100,
     level: 1,
-};
+  };
   expect(character).toMatchObject(result);
 });
