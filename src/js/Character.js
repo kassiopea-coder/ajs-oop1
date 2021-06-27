@@ -12,9 +12,7 @@ export default class Character {
     } else {
       this.type = type;
     }
-
     this.health = 100;
     this.level = 1;
-
   }
 }
